@@ -156,7 +156,7 @@ namespace PcTestMFUA
 
 
 
-        public static void CPUKTesting(object cpuUsage)
+        public static void CPUKTesting(object cpuUsage) // цикл для нагрузки процессора
         {
             Parallel.For(0, 1, new Action<int>((int i) =>
             {
